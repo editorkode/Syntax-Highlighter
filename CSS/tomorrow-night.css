@@ -1,0 +1,80 @@
+/* Tomorrow Night Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+pre .comment,
+pre .quote {
+  color: #969896;
+}
+
+/* Tomorrow Red */
+pre .variable,
+pre .template-variable,
+pre .tag,
+pre .name,
+pre .selector-id,
+pre .selector-class,
+pre .regexp,
+pre .deletion {
+  color: #cc6666;
+}
+
+/* Tomorrow Orange */
+pre .number,
+pre .built_in,
+pre .builtin-name,
+pre .literal,
+pre .type,
+pre .params,
+pre .meta,
+pre .link {
+  color: #de935f;
+}
+
+/* Tomorrow Yellow */
+pre .attribute {
+  color: #f0c674;
+}
+
+/* Tomorrow Green */
+pre .string,
+pre .symbol,
+pre .bullet,
+pre .addition {
+  color: #b5bd68;
+}
+
+/* Tomorrow Blue */
+pre .title,
+pre .section {
+  color: #81a2be;
+}
+
+/* Tomorrow Purple */
+pre .keyword,
+pre .selector-tag {
+  color: #b294bb;
+}
+
+pre code {
+  display: block;
+  font-size:85%;
+  margin-top: 5px;
+  overflow-wrap: break-word; 
+  overflow: auto; 
+  overflow-x:hidden;
+  background: #1d1f21;
+  color: #c5c8c6;
+  padding: 0.5em;
+  border-left: 5px solid #9A3135;
+}
+
+pre .emphasis {
+  font-style: italic;
+}
+
+pre .strong {
+  font-weight: bold;
+}

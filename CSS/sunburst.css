@@ -1,0 +1,107 @@
+/*
+
+Sunburst-like style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+pre code {
+  display: block;
+  font-size:85%;
+  margin-top: 5px;
+  overflow-wrap: break-word; 
+  overflow: auto; 
+  overflow-x:hidden;
+  padding: 0.5em;
+  background: #000;
+  color: #f8f8f8;
+  border-left: 5px solid #9A3135;
+}
+
+pre .comment,
+pre .quote {
+  color: #aeaeae;
+  font-style: italic;
+}
+
+pre .keyword,
+pre .selector-tag,
+pre .type {
+  color: #e28964;
+}
+
+pre .string {
+  color: #65b042;
+}
+
+pre .subst {
+  color: #daefa3;
+}
+
+pre .regexp,
+pre .link {
+  color: #e9c062;
+}
+
+pre .title,
+pre .section,
+pre .tag,
+pre .name {
+  color: #89bdff;
+}
+
+pre .class pre .title,
+pre .doctag {
+  text-decoration: underline;
+}
+
+pre .symbol,
+pre .bullet,
+pre .number {
+  color: #3387cc;
+}
+
+pre .params,
+pre .variable,
+pre .template-variable {
+  color: #3e87e3;
+}
+
+pre .attribute {
+  color: #cda869;
+}
+
+pre .meta {
+  color: #8996a8;
+}
+
+pre .formula {
+  background-color: #0e2231;
+  color: #f8f8f8;
+  font-style: italic;
+}
+
+pre .addition {
+  background-color: #253b22;
+  color: #f8f8f8;
+}
+
+pre .deletion {
+  background-color: #420e09;
+  color: #f8f8f8;
+}
+
+pre .selector-class {
+  color: #9b703f;
+}
+
+pre .selector-id {
+  color: #8b98ab;
+}
+
+pre .emphasis {
+  font-style: italic;
+}
+
+pre .strong {
+  font-weight: bold;
+}
