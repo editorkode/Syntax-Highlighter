@@ -1,0 +1,72 @@
+/*
+
+Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+
+*/
+pre {
+  display: block;
+  font-size:85%;
+  margin-top: 5px;
+  overflow-wrap: break-word; 
+  overflow: auto; 
+  overflow-x:hidden;
+  padding: 0.5em;
+  background: white;
+  color: black;
+}
+
+pre .comment,
+pre .quote,
+pre .variable {
+  color: #008000;
+}
+
+pre .keyword,
+pre .selector-tag,
+pre .built_in,
+pre .name,
+pre .tag {
+  color: #00f;
+}
+
+pre .string,
+pre .title,
+pre .section,
+pre .attribute,
+pre .literal,
+pre .template-tag,
+pre .template-variable,
+pre .type,
+pre .addition {
+  color: #a31515;
+}
+
+pre .deletion,
+pre .selector-attr,
+pre .selector-pseudo,
+pre .meta {
+  color: #2b91af;
+}
+
+pre .doctag {
+  color: #808080;
+}
+
+pre .attr {
+  color: #f00;
+}
+
+pre .symbol,
+pre .bullet,
+pre .link {
+  color: #00b0e8;
+}
+
+
+pre .emphasis {
+  font-style: italic;
+}
+
+pre .strong {
+  font-weight: bold;
+}
